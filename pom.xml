@@ -42,6 +42,18 @@
 		</dependency>
 	</dependencies>
 
+	<!-- 
+    This dependency adds support for building web applications using Spring Boot.
+    It includes an embedded Tomcat server, RESTful web services, Jackson for JSON,
+    and other tools needed to create a web API.
+-->
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-web</artifactId>
+    		<version>3.5.3</version>
+	
+	</dependency>
+
 	<build>
 		<plugins>
 			<plugin>
