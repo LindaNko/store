@@ -10,7 +10,7 @@ public class HomeController {
     @Value("${spring.application.name}")
     private String appName;
     
-    @RequestMapping("/") 
+    @RequestMapping(path = "/") 
     public String index(){
 
         System.out.println("appName: " + appName);
